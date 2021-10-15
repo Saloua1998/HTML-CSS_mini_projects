@@ -1,8 +1,59 @@
-.center {
+body {
+  margin: 0px;
+  padding-bottom: 1rem;
+  background-color: rgb(200, 255, 255);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+}
+h1,
+h3 {
+  text-align: center;
+  margin: 0px;
+}
+
+.Block1 {
+  margin: 0px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+.Block2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+img {
   display: block;
+  margin: 0rem auto;
+  height: 30rem;
+}
+
+.Content {
+  padding: 5rem;
+}
+.Block3 {
+}
+
+/* table */
+table {
+  background-color: rgb(233, 233, 247);
+  border: 0.1rem solid black;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  height: 20rem;
+  border-collapse: collapse;
+  /* border-spacing: 0px; */
+  border-radius: 30px;
+}
+th {
+  text-align: left;
+  vertical-align: baseline;
+  background-color: rgb(64, 224, 208);
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid black;
+  margin: 0px;
+}
+td {
+  border: 0.1rem solid black;
+  padding-left: 1rem;
 }
