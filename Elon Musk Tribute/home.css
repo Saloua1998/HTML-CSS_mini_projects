@@ -21,8 +21,14 @@ img {
 .Content {
   padding: 5rem;
 }
-.Intro {
+
+.Block2 {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-self: flex-start;
+  align-content: flex-start;
 }
 
 /* Content List*/
@@ -54,6 +60,4 @@ th {
 td {
   border: 0.1rem solid black;
   padding-left: 1rem;
-}
-.Block2 {
 }
