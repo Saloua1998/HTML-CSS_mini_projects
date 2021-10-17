@@ -4,9 +4,18 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
 }
 h1,
-h3 {
+h2,
+h3,
+h4 {
+  margin: 0px 0.5rem;
+}
+h2 {
   text-align: center;
-  margin: 0px;
+  font-size: 1.3rem;
+}
+h3 {
+  text-align: left;
+  padding-top: 1rem;
 }
 /* Block 1 */
 .Block1 {
@@ -20,7 +29,7 @@ img {
   height: 25rem;
 }
 
-.Content {
+.Page {
   padding: 5vw 10vw;
 }
 
@@ -64,4 +73,7 @@ td {
   padding-left: 1rem;
 }
 
-/* Block 3 */
+.Content {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
