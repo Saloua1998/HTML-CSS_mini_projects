@@ -1,3 +1,4 @@
+/* Evenly space out Block2(flex/flexbox/grid) */
 body {
   margin: 0px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
@@ -7,6 +8,7 @@ h3 {
   text-align: center;
   margin: 0px;
 }
+/* Block 1 */
 .Block1 {
   background-color: black;
   color: white;
@@ -19,22 +21,22 @@ img {
 }
 
 .Content {
-  padding: 5rem;
+  padding: 5vw 10vw;
 }
 
+/* Block 2 */
 .Block2 {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  align-self: flex-start;
-  align-content: flex-start;
+  flex-flow: row wrap;
 }
-
+/* .Block2 > * {
+  flex: 1 1 40vw;
+} */
 /* Content List*/
 ol {
   counter-reset: item;
   padding-inline-start: 1rem;
+  width: 25vw;
 }
 li {
   display: block;
@@ -43,12 +45,12 @@ li:before {
   content: counters(item, ".") " ";
   counter-increment: item;
 }
-/* table */
 table {
   background-color: rgb(233, 233, 247);
   border: 0.1rem solid black;
-  margin: auto 0.1rem;
+  margin: 1rem;
   border-collapse: collapse;
+  width: 50vw;
 }
 th {
   text-align: left;
@@ -61,3 +63,5 @@ td {
   border: 0.1rem solid black;
   padding-left: 1rem;
 }
+
+/* Block 3 */
