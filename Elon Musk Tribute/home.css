@@ -74,6 +74,11 @@ td {
 }
 
 .Content {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+}
+
+iframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande"; */
 }
