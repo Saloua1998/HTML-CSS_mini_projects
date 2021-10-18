@@ -5,10 +5,10 @@ Goals:
 - maybe a animation
 - add video in it
 
-Hours Spend: 10H
+Hours Spend: 11.5H
 
 Things Learned:
 -  Flex-flow="row wrap/column wrap"
     It’s a shortcut for flex direction and flex-wrap
 - Tried using embed and iframe tags to import text files, but with both you had to scroll which didn't look nice
-- 
+- To display content neatly with text on the left and an image on the right use a table
