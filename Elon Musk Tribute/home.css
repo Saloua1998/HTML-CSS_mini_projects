@@ -78,7 +78,7 @@ li:before {
   padding-bottom: 2rem;
 }
 .Images {
-  width: 20vw;
+  width: 17vw;
   height: 100%;
-  float: right;
+  border-radius: 0.5rem;
 }

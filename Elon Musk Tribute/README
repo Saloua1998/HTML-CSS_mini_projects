@@ -1,10 +1,3 @@
-Goals:
-- It's gotta pop
-- Pretty colors
-- A lot of images
-- maybe a animation
-- add video in it
-
 Hours Spend: 11.5H
 
 Things Learned:
@@ -12,3 +5,14 @@ Things Learned:
     It’s a shortcut for flex direction and flex-wrap
 - Tried using embed and iframe tags to import text files, but with both you had to scroll which didn't look nice
 - To display content neatly with text on the left and an image on the right use a table
+
+What I can do better next time:
+- Import the text so the code isn't so long
+- Learn how to combine 2 rows
+- Learn how to use flexbox
+
+Website Goals:
+- Use images            (DONE)
+- Make it look neat
+- Add a video/animation
+- Import text from files (FAIL)
