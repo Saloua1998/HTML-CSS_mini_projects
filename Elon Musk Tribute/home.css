@@ -54,25 +54,27 @@ li:before {
   content: counters(item, ".") " ";
   counter-increment: item;
 }
+/* Table General Info */
 .GenInfo {
   background-color: rgb(233, 233, 247);
-  border: 0.1rem solid black;
   margin: 1rem;
-  border-collapse: collapse;
   width: 50vw;
+}
+.GenInfo tr:last-child td:last-child {
+  border-bottom-right-radius: 0.5rem;
 }
 .GenInfo th {
   text-align: left;
   vertical-align: baseline;
-  background-color: rgb(64, 224, 208);
-  padding: 0.5rem 1rem;
+  background-color: turquoise;
+  padding: 0.8rem 1rem;
   border: 0.1rem solid black;
 }
 .GenInfo td {
   border: 0.1rem solid black;
   padding-left: 1rem;
 }
-
+/* Content Table */
 .Text {
   padding-right: 1rem;
   padding-bottom: 2rem;
@@ -81,4 +83,17 @@ li:before {
   width: 17vw;
   height: 100%;
   border-radius: 0.5rem;
+}
+figcaption {
+  text-align: center;
+  font-size: smaller;
+  font-weight: 900;
+}
+
+footer {
+  padding: 1rem;
+  background-color: black;
+  font-size: small;
+  color: white;
+  text-align: center;
 }
