@@ -1,4 +1,3 @@
-/* Evenly space out Block2(flex/flexbox/grid) */
 body {
   margin: 0px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
@@ -32,16 +31,10 @@ h3 {
 .Page {
   padding: 2vw 10vw;
 }
-
-/* Block 2 */
 .Block2 {
   display: flex;
   flex-flow: row wrap;
 }
-/* .Block2 > * {
-  flex: 1 1 40vw;
-} */
-/* Content List*/
 ol {
   counter-reset: item;
   padding-inline-start: 1rem;

@@ -1,9 +1,10 @@
-Hours Spend: 11.5H
+Hours Spend: 13H
 
 Things Learned:
 -  Flex-flow="row wrap/column wrap"
     It’s a shortcut for flex direction and flex-wrap
 - Tried using embed and iframe tags to import text files, but with both you had to scroll which didn't look nice
+- USED I FRAME TO ADD A YOUTUBE VIDEO AND IT WORKED!!!
 - To display content neatly with text on the left and an image on the right use a table
 - New tag Figcaption
 
@@ -14,6 +15,5 @@ What I can do better next time:
 
 Website Goals:
 - Use images            (DONE)
-- Make it look neat
-- Add a video/animation
+- Add a video/animation (DONE!!!!)
 - Import text from files (FAIL)
