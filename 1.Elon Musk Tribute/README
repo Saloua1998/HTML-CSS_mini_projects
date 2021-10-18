@@ -7,6 +7,7 @@ Things Learned:
 - USED I FRAME TO ADD A YOUTUBE VIDEO AND IT WORKED!!!
 - To display content neatly with text on the left and an image on the right use a table
 - New tag Figcaption
+- <img src="./images/xxx"> If you remove the . it won't work when you send it to someone
 
 What I can do better next time:
 - Import the text so the code isn't so long
